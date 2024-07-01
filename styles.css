@@ -1,0 +1,127 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #658147;
+  font-weight: 900;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  text-align: left;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input:focus {
+  border-color: #ff7e5f;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, dimgrey, black);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  animation: hoverEffect 0.3s forwards;
+}
+
+@keyframes hoverEffect {
+  from {
+    background: linear-gradient(135deg, dimgrey, black);
+  }
+  to {
+    background: linear-gradient(135deg, black, dimgrey);
+  }
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.toggle-password i {
+  font-size: 18px;
+  color: #666;
+}
+
+.toggle-password span {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.login-container p a {
+  color: #007bff;
+  text-decoration: none;
+}
+.login-container p a:hover {
+  text-decoration: underline;
+}
+
+.banner video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .banner video {
+    width: 100%;
+    height: auto;
+  }
+}
