@@ -216,16 +216,14 @@ button:hover {
 @media only screen and (max-width: 768px) {
   .card {
     margin-left: 80px;
-   
   }
 
   .card:hover {
-    height: auto; /* Remove height change on hover for better responsiveness */
+    height: auto;
     background: none;
   }
 
   .card .header .title {
-    padding: 4px 0; /* Adjust padding on title */
+    padding: 4px 0;
   }
-
 }

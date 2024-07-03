@@ -146,31 +146,14 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
           </div>
         </div>
-      <div class="best-seller">
-      <h1> Best Seller</h1>
-        <div class="card-container">
-          
-              <div class="product">
-              <img src="assets/pp1.jpg">
-              <h2> Squidward mode serius</h2>
-              <p>
-              Dengan tatapan tajam nya squidward kita tahu betapa dinginnya squidward.
-              </p>
-              <button class="shop-button" data-link="https://wa.link/ou4qrm">Add to Cart</button>
-            </div>
-            <div class="product">
-              <img src="assets/pp2.jpg">
-              <h2>patrick mode villain</h2>
-              <p>Sheesh betapa dingin nya patrick sekarang</p>
-              <button class="shop-button" data-link="https://wa.link/ou4qrm">Add to Cart</button>
-            </div>
-            <div class="product">
-              <img src="assets/pp3.jpg" alt="Product">
-              <h2>Spongebob dengan mode coolnya</h2>
-              <p>sheesh yang dulu ngira spongebob konyol</p>
-              <button class="shop-button" data-link="https://wa.link/ou4qrm">Add to Cart</button>
-            </div>
-      </div>
+          <div class="about">
+          <div class="content">
+            <h1>Fix bug</h1>
+            <p>
+            Contact keluhan ada di ig saya tolong kasih keluhan lewat dm ig saya pasti saya sefast respon.
+            </p> 
+          </div>
+        </div>
       `,
     about: `
         <div class="about">
@@ -192,6 +175,256 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
       
       `,
+      portfolio: `
+         <div class="main" id="main">
+      <div class="left">
+        <h5>Halo tod, Gw Yor</h5>
+        <h3>
+          Ini web <span>sekedar gabut</span>
+          entahlah
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          similique porro accusantium, accusamus velit itaque quidem tempore
+          vero blanditiis dolor soluta quo maxime sunt quod eos! Voluptatibus,
+          aperiam dicta. Sit.
+        </p>
+        <button>Button biasa</button>
+      </div>
+      <div class="right">
+        <img src="assets/pp.jpg" />
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <h5>Skill gw</h5>
+      <h3>My Expert</h3>
+      <div class="skill-items">
+        <div class="item">
+          <div class="icon">
+            <i class="bx bxl-html5"></i>
+          </div>
+          <h4>Html</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum
+            similique omnis hic accusantium blanditiis nisi totam nobis
+            necessitatibus a, sed mollitia recusandae obcaecati doloremque
+            natus, saepe quo? Unde, mollitia.
+          </p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <i class="bx bxl-javascript"></i>
+          </div>
+          <h4>js</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum
+            similique omnis hic accusantium blanditiis nisi totam nobis
+            necessitatibus a, sed mollitia recusandae obcaecati doloremque
+            natus, saepe quo? Unde, mollitia.
+          </p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <i class="bx bxl-css3"></i>
+          </div>
+          <h4>Css</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum
+            similique omnis hic accusantium blanditiis nisi totam nobis
+            necessitatibus a, sed mollitia recusandae obcaecati doloremque
+            natus, saepe quo? Unde, mollitia.
+          </p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <i class="bx bxl-bootstrap"></i>
+          </div>
+          <h4>Bootstrap</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum
+            similique omnis hic accusantium blanditiis nisi totam nobis
+            necessitatibus a, sed mollitia recusandae obcaecati doloremque
+            natus, saepe quo? Unde, mollitia.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about" id="about-me">
+      <div class="left">
+        <img src="assets/pp.jpg" />
+      </div>
+      <div class="right">
+        <h5>About</h5>
+        <h3>About Me</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          quidem sed? Odio praesentium officiis quibusdam a unde sunt numquam
+          mollitia excepturi, repellendus repellat voluptatem soluta totam
+          dolores quos vitae eos.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Reprehenderit quod in quisquam! Earum recusandae, vel voluptatum
+          facilis odit fuga laborum dolorem beatae, magnam et eveniet
+          consectetur soluta reprehenderit cumque iste.
+        </p>
+      </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+      <div class="header">
+        <div class="info">
+          <h5>Recent Projects</h5>
+          <h3>My Portfolio</h3>
+        </div>
+        <a href="https://github.com/Alexyoree" target="_blank">
+          <button><i class="bx bxl-github"></i> Visit My Github</button>
+        </a>
+      </div>
+
+      <div class="portfo-items">
+        <div class="item">
+          <img src="assets/Screenshot from 2024-06-24 23-54-02.png" />
+          <div class="info">
+            <h4>Portfolio</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
+            <a href="https://github.com/Alexyoree/lexxyor"
+              >View in GIthub <i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/Screenshot from 2024-06-24 23-54-44.png" />
+          <div class="info">
+            <h4>Shop</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
+            <a href="https://github.com/Alexyoree/myproject1"
+              >View in Github <i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/Screenshot from 2024-06-25 11-04-04.png" />
+          <div class="info">
+            <h4>Msbreew Blog</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
+            <a href="https://github.com/Alexyoree/msbreewc"
+              >View in Github <i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback" id="feedback">
+      <h5>Clients Reviews</h5>
+      <h3>Customers Feedback</h3>
+      <div class="customers">
+        <div class="item">
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
+            quis viverra.
+          </p>
+          <div class="user">
+            <img src="assets/pp4.jpg" />
+            <div class="info">
+              <h5>Tom</h5>
+              <p>Tom and Jerry</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
+            quis viverra.
+          </p>
+          <div class="user">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1shYI0bvays3P1BRHQBNPIlpgkBxTbcVrMw&s"
+            />
+            <div class="info">
+              <h5>Gojo Satoru</h5>
+              <p>Jujutsu Kaisen</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
+            quis viverra.
+          </p>
+          <div class="user">
+            <img
+              src="https://64.media.tumblr.com/3a77827ecaa2ecb421186329ef647869/tumblr_nafin8hDsZ1sku78to1_1280.jpg"
+            />
+            <div class="info">
+              <h5>Sasuke</h5>
+              <p>Naruto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="top">
+        <div class="logo">
+          <img src="assets/pp.jpg" />
+          <a href="https://github.com/Alexyoree">Yorresu</a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+     
+      </div>
+      <div class="separator"></div>
+      <div class="bottom">
+        <p>Made With By Yorresu</p>
+        <div class="links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies Setting</a>
+        </div>
+      </div>
+    </footer>
+      `
   };
 
   function updateDisplayName() {
@@ -277,7 +510,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const addButton = document.querySelector(".shop-button");
 
   addButton.addEventListener("click", function () {
-  
     const link = addButton.getAttribute("data-link");
 
     window.location.href = link;
@@ -287,19 +519,43 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", (event) => {
   const logoutLink = document.getElementById("logoutLink");
 
-  logoutLink.addEventListener("click", function(event) {
-      event.preventDefault(); // Mencegah tautan melakukan navigasi default
+  logoutLink.addEventListener("click", function (event) {
+    event.preventDefault(); // Mencegah tautan melakukan navigasi default
 
+    localStorage.removeItem("username");
+    localStorage.removeItem("password");
+    localStorage.removeItem("rememberMe");
 
-      localStorage.removeItem("username");
-      localStorage.removeItem("password");
-      localStorage.removeItem("rememberMe");
-
-      // Redirect ke halaman index.html
-      window.location.href = "index.html";
+    // Redirect ke halaman index.html
+    window.location.href = "index.html";
   });
 });
 
-document.getElementById('logoutButton').addEventListener('click', function() {
-  window.location.href = 'index.html';
+document.getElementById("logoutButton").addEventListener("click", function () {
+  window.location.href = "index.html";
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector(".main").style.opacity = "1";
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector(".main").style.opacity = "1";
+
+  const skillItems = document.querySelector(".skill-items");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target); // Stop observing once it's shown
+      }
+    });
+  }, {
+    threshold: 0.1 // Trigger when 10% of the item is visible
+  });
+
+  observer.observe(skillItems);
+});                                                                                                                           
