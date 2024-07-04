@@ -178,10 +178,10 @@ document.addEventListener("DOMContentLoaded", function () {
       portfolio: `
          <div class="main" id="main">
       <div class="left">
-        <h5>Halo tod, Gw Yor</h5>
+        <h5>Halo , Gw MsBreewc</h5>
         <h3>
-          Ini web <span>sekedar gabut</span>
-          entahlah
+          Ini web <span>tentang perkenalan</span>
+          diri gw
         </h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <button>Button biasa</button>
       </div>
       <div class="right">
-        <img src="assets/pp.jpg" />
+        <img src="https://indo1.id/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-14-at-12.25.20.jpeg" />
       </div>
     </div>
 
@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <div class="about" id="about-me">
       <div class="left">
-        <img src="assets/pp.jpg" />
+        <img src="https://modeldewasa.com/wp-content/uploads/2023/07/Msbreewc-wikipedia.jpg" />
       </div>
       <div class="right">
         <h5>About</h5>
@@ -404,19 +404,19 @@ document.addEventListener("DOMContentLoaded", function () {
     <footer id="footer">
       <div class="top">
         <div class="logo">
-          <img src="assets/pp.jpg" />
-          <a href="https://github.com/Alexyoree">Yorresu</a>
+          <img src="https://modeldewasa.com/wp-content/uploads/2023/07/Msbreewc-wikipedia.jpg" />
+          <a href="https://github.com/Alexyoree">MsBreewc</a>
         </div>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#about-me">About me</a></li>
+          <li><a href="#about-me">About</a></li>
           <li><a href="#footer">Contact</a></li>
         </ul>
      
       </div>
       <div class="separator"></div>
       <div class="bottom">
-        <p>Made With By Yorresu</p>
+        <p>Made With By MsBreewc</p>
         <div class="links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>

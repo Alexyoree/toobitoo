@@ -1288,3 +1288,7 @@ footer a {
 footer a:hover {
   color: #5e3bee !important;
 }
+
+a {
+  text-decoration: none;
+}
