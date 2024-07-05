@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 
     <div class="skills" id="skills">
-      <h5>Skill gw</h5>
+      <h2>Skill gw</h2>
       <h3>My Expert</h3>
       <div class="skill-items">
         <div class="item">

@@ -404,9 +404,15 @@ body.dark-mode .home .image-right img,
 body.light-mode .home .header-home,
 body.light-mode .home .description,
 body.light-mode .home .image-right img,
-body.light-mode  .best-seller .home 
-body.dark-mode .best-seller .home
-body.light-mode .feedback .home {
+body.light-mode
+  .best-seller
+  .home
+  body.dark-mode
+  .best-seller
+  .home
+  body.light-mode
+  .feedback
+  .home {
   transition: all 0.5s ease;
 }
 
@@ -615,7 +621,7 @@ body.dark-mode .best-seller h1 {
   color: #fff;
 }
 
-body.dark-mode .customers  {
+body.dark-mode .customers {
   color: #fff;
 }
 body.dark-mode .feedback h5 {
@@ -853,9 +859,8 @@ body.dark-mode .feedback h3 {
   display: flex;
   margin-top: 70px;
   gap: 30px;
+  margin-bottom: 20px;
 }
-
-
 
 .skills .skill-items .item {
   background-color: #deebee;
@@ -901,6 +906,7 @@ body.dark-mode .feedback h3 {
 }
 
 .about {
+  margin-bottom: 30px;
   padding: 110px;
   display: flex;
   align-items: center;
@@ -1242,18 +1248,17 @@ footer .bottom .links a {
 
   .portfolio .header button {
     font-size: 12px;
+
     padding: 8px 14px;
   }
 
   .portfolio .portfo-items .item {
-    width: 80%;
+    width: 90%;
   }
 
   .feedback .customers .item {
     width: 100%;
   }
-
-
 }
 
 footer .logo {
@@ -1284,11 +1289,16 @@ footer a {
   transition: color 0.3s ease;
 }
 
-
 footer a:hover {
   color: #5e3bee !important;
 }
 
 a {
   text-decoration: none;
+}
+body.dark-mode .skills h3   {
+  color:white;
+}
+body.dark-mode .skills h2   {
+  color:white;
 }
