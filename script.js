@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <h3>Selamat Datang Di Tobitto</h3>
             <div class="description">
               <p>
-              Dengan pembuatan website ini adalah untuk membantu donasi untuk pembuat web atau bantu melihat website ini. theme kali ini adalah foto yang vibes villain enjoy saja.
+             Selamat datang di <b> Villain Market </b> , tempat di mana kejahatan dan keindahan bertemu dalam harmoni gelap yang memukau. Di sini, dalam bayangan dan kerlip cahaya remang, kami menawarkan karya-karya luar biasa dari seniman berbakat yang mendedikasikan jiwa mereka untuk menciptakan keajaiban visual yang mendalam dan misterius. Setiap karya adalah hasil dari tangan-tangan terampil yang menyelam ke dalam jurang imajinasi, menghadirkan karakter dan konsep yang kuat, berani, dan memikat. Temukan portfolio kami yang kaya dengan desain eksklusif, seni visual yang provokatif, dan koleksi produk yang hanya bisa Anda temukan di sudut tergelap dari pasar ini. Bersiaplah untuk menyusuri lorong-lorong gelap dan menjelajahi sisi tersembunyi dari seni yang tidak biasa.
               </p>
             </div>
             <button class="button">Hover me</button>
@@ -166,19 +166,10 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
         </div>
       `,
-    plot: `
-      <div class="plot-twist">
-      <h1> hayuluh mau ngapain</h1>
-      <p>
-      ga ada apa apa disini gabut bet kalian sampe disini
-      </p>
-      </div>
-      
-      `,
-      portfolio: `
+    portfolio: `
          <div class="main" id="main">
       <div class="left">
-        <h5>Halo , Gw MsBreewc</h5>
+        <h5>Halo , Gw Lex</h5>
         <h3>
           Ini web <span>tentang perkenalan</span>
           diri gw
@@ -192,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <button>Button biasa</button>
       </div>
       <div class="right">
-        <img src="https://indo1.id/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-14-at-12.25.20.jpeg" />
+        <img src="assets/pp.jpg" />
       </div>
     </div>
 
@@ -253,7 +244,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <div class="about" id="about-me">
       <div class="left">
-        <img src="https://modeldewasa.com/wp-content/uploads/2023/07/Msbreewc-wikipedia.jpg" />
+        <img src="assets/pp1.jpg" />
       </div>
       <div class="right">
         <h5>About</h5>
@@ -404,19 +395,19 @@ document.addEventListener("DOMContentLoaded", function () {
     <footer id="footer">
       <div class="top">
         <div class="logo">
-          <img src="https://modeldewasa.com/wp-content/uploads/2023/07/Msbreewc-wikipedia.jpg" />
-          <a href="https://github.com/Alexyoree">MsBreewc</a>
+          <img src="assets/pp.jpg" />
+          <a href="https://github.com/Alexyoree">Lexx</a>
         </div>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#about-me">About</a></li>
-          <li><a href="#footer">Contact</a></li>
+          <li><a href="#footer">yan</a></li>
         </ul>
      
       </div>
       <div class="separator"></div>
       <div class="bottom">
-        <p>Made With By MsBreewc</p>
+        <p>Made With lex/p>
         <div class="links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -424,7 +415,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </div>
     </footer>
-      `
+      `,
   };
 
   function updateDisplayName() {
@@ -535,27 +526,26 @@ document.getElementById("logoutButton").addEventListener("click", function () {
   window.location.href = "index.html";
 });
 
-
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   document.querySelector(".main").style.opacity = "1";
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   document.querySelector(".main").style.opacity = "1";
 
- 
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-        observer.unobserve(entry.target); // Stop observing once it's shown
-      }
-    });
-  }, {
-    threshold: 0.1 // Trigger when 10% of the item is visible
-  });
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.1,
+    }
+  );
 
   observer.observe(skillItems);
-});                                                                                                                           
+});

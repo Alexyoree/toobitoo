@@ -7,109 +7,63 @@ body {
   margin: 0;
 }
 
-.login-container {
-  padding: 40px;
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #1e1e1e;
+  padding: 20px;
+  border: 1px solid #3d3c3c;
   border-radius: 10px;
-  width: 90%;
-  max-width: 400px;
+  color: white;
   text-align: center;
-  position: relative;
+  font-size: 20px;
 }
 
-h2 {
-  margin-bottom: 20px;
-  color: #658147;
-  font-weight: 900;
-}
-
-label {
-  display: block;
-  margin-bottom: 8px;
-  color: #666;
-  text-align: left;
-  font-weight: bold;
-}
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-input[type="checkbox"] {
-  margin-right: 5px;
-}
-
-input:focus {
-  border-color: #ff7e5f;
+.form input {
+  height: 35px;
   outline: none;
-}
-
-button {
-  width: 100%;
-  padding: 12px;
-  background: linear-gradient(135deg, dimgrey, black);
-  border: none;
+  border: 2px solid orange;
+  background: transparent;
+  padding: 20px 10px;
   border-radius: 5px;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background 0.3s;
+  transition: .5s;
+  color: white;
+  font-size: 20px;
 }
 
-button:hover {
-  animation: hoverEffect 0.3s forwards;
+.form input:focus {
+  background: orange;
 }
 
-@keyframes hoverEffect {
-  from {
-    background: linear-gradient(135deg, dimgrey, black);
+.form button {
+  width: 100%;
+  color: white;
+  transition: .5s;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+  background: orange;
+  align-self: flex-end;
+  cursor: pointer ;
+}
+    
+@media (max-width: 600px) {
+  .form {
+      padding: 15px;
   }
-  to {
-    background: linear-gradient(135deg, black, dimgrey);
+
+  .form input {
+      font-size: 14px;
+      padding: 8px;
   }
-}
 
-.error-message {
-  color: red;
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.password-input-container {
-  position: relative;
-}
-
-.toggle-password {
-  position: absolute;
-  top: 35%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-
-.toggle-password i {
-  font-size: 18px;
-  color: #666;
-}
-
-.toggle-password span {
-  margin-left: 5px;
-  font-size: 14px;
-  color: #666;
-  cursor: pointer;
-}
-
-.login-container p a {
-  color: #007bff;
-  text-decoration: none;
-}
-.login-container p a:hover {
-  text-decoration: underline;
+  .form button {
+      font-size: 14px;
+      height: 40px;
+  }
 }
 
 .banner video {
@@ -215,15 +169,16 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
   .card {
-    margin-left: 80px;
+    margin-left: 0; /* Mengubah margin-left menjadi 0 */
   }
 
   .card:hover {
-    height: auto;
-    background: none;
+    height: auto; /* Tetapkan ketinggian otomatis */
+    background: transparent; /* Hapus latar belakang saat hover */
   }
 
   .card .header .title {
-    padding: 4px 0;
+    padding: 8px 0; /* Ubah padding pada judul */
   }
 }
+
